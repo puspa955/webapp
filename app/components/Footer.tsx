@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='absolute bottom-0'>
+      <div className='absolute bottom-0 left-24'>
         <Image src={mountaion} alt='mountain' className='h-full' />
       </div>
 

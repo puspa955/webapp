@@ -21,7 +21,7 @@ export default function Home() {
         <div className='absolute right-0 z-10'>
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
         </div>
-        <div className='flex h-screen w-full relative'
+        <div className='flex h-screen w-full'
           style={{
           backgroundImage: 'url("/images/bg.jpg")', // Replace with the path to your background image
           backgroundSize: 'cover',
