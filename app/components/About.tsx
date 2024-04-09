@@ -23,7 +23,7 @@ const About: React.FC = () => {
           <h1 className='text-2xl text-[#fcce1c] font-extrabold pt-14 text-center'>GPT Nepal</h1>
           <p className='pt-2 text-justify text-gray-500 text-sm '>
             We are excited to introduce GPT Nepal, a pioneering AI companion designed to serve as your personal guide during your journey through Nepal.
-            Our mission is to provide comprehensive assistance to travelers by offering a wealth of knowledge about Nepal's attractions and amenities.
+            Our mission is to provide comprehensive assistance to travelers by offering a wealth of knowledge about Nepals attractions and amenities.
             With the advent of GPT Nepal, tourists can now confidently embark on solo adventures and significantly reduce expenses typically associated with
             hiring traditional tour guides.
           </p>
@@ -99,8 +99,8 @@ const About: React.FC = () => {
                   <div className='absolute top-0 left-0  bg-black h-full opacity-70 rounded-xl text-center pt-28 px-6 font-extrabold z-10'>
                     <h1 className='text-[#da123c] text-lg font-extrabold pb-2'>Chitwan</h1>
                     <p className='text-sm font-light text-[#fcce1c]'>
-                      Nestled in the foothills of the Himalayas, Chitwan National Park is a treasure trove of biodiversity and a jewel in Nepal's crown.
-                      Established in 1973, it holds the distinction of being the country's first national park and was inscribed as a UNESCO World Heritage Site in 1984.
+                      Nestled in the foothills of the Himalayas, Chitwan National Park is a treasure trove of biodiversity and a jewel in Nepals crown.
+                      Established in 1973, it holds the distinction of being the countrys first national park and was inscribed as a UNESCO World Heritage Site in 1984.
                     </p>
                   </div>
                 </div>
