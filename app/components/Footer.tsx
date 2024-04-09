@@ -39,6 +39,7 @@ const Footer: React.FC = () => {
                 type="text"
                 id="name"
                 name="user_name"
+                autoComplete='given-name'
                 className="w-full text-sm px-4 py-1 border border-gray-300  focus:outline-none focus:border-indigo-500"
                 required
               />
@@ -49,6 +50,7 @@ const Footer: React.FC = () => {
                 type="email"
                 id="email"
                 name="user_email"
+                autoComplete='off'
                 className="w-full text-sm px-4 py-1 border border-gray-300  focus:outline-none focus:border-indigo-500"
                 required
               />
