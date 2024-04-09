@@ -4,7 +4,7 @@ import Research from './components/Research';
 import Mentors from './components/Mentors';
 import Team from './components/Team';
 import LandingPageNav from './components/LandingPageNav';
-import Image from 'next/image';
+
 
 import Link from 'next/link';
 import { MdArrowOutward } from 'react-icons/md';
