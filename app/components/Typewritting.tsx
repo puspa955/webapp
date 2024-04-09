@@ -1,4 +1,4 @@
-"useState"
+"use client"
 import React, { useState, useEffect } from 'react';
 
 const facts: string[] = [
