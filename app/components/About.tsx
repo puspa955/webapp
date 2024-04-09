@@ -12,7 +12,7 @@ import Typewriter from './Typewritting';
 
 const About: React.FC = () => {
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className='relative z-[-10] flex flex-col justify-center items-center'>
       <div className='h-[74vh] w-[80vw] gap-8 p-4 m-4 flex justify-center'>
         <motion.div
           initial={{ opacity: 0, x: -200 }}
@@ -44,20 +44,20 @@ const About: React.FC = () => {
           transition={{ duration: 1 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className='bg-gray-100 rounded-md shadow-md w-[28vw] h-[48vh] p-4 mt-12'>
+          className='bg-gray-100 rounded-md shadow-md w-[28vw] h-[48vh] p-4 mt-12 relative z-[10]'>
           <Image src={Lumbini} alt='lumbini' className='h-[380px] w-[500px] object-cover' />
         </motion.div>
       </div>
 
       {/* About Nepal */}
-      <div className="bg-cover bg-center h-[140vh] w-[100vw] relative"
+      <div className="bg-cover bg-center h-[140vh] w-[100vw] relative z-[-10]"
            style={{ backgroundImage: "url('https://ntb.gov.np/storage/website/landscape2-44237cb6.jpeg')" }}>
         <div className="absolute w-full h-full bg-white opacity-70"></div>
-        <div className='absolute right-4 top-[40vh] m-4'>
-          <Image src={map} alt='lumbini' className=' h-[400px] w-[45vw]  object-fill  ' />
+        <div className='absolute right-4 top-[40vh] m-4 z-[10]'>
+          <Image src={map} alt='map' className=' h-[400px] w-[45vw]  object-fill  ' />
         </div>
 
-        <div className='absolute w-[32vw] mt-10 lg:ml-16 z-10'>
+        <div className='absolute w-[32vw] mt-10 lg:ml-16 z-[10]'>
           <h1 className='text-2xl font-extrabold py-10 text-blue-950'>Top Destinations in Nepal</h1>
           <div className="grid grid-cols-2  h-[80vh] gap-6 ">
             <div className='group h-96 w-96 [perspective:1000px]'>

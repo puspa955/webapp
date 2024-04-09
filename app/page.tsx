@@ -28,8 +28,9 @@ export default function Home() {
             backgroundPosition: 'center',
           }}
         ></div>
+        <div className='absolute inset-0 bg-black opacity-50'></div>
         {/* Background Overlay with Image */}
-        <div className='absolute top-0 left-0 w-full h-full bg-black opacity-50'></div>
+       
         <div className='text-white absolute top-[60vh] left-[10vw]'>
           <h1 className='text-4xl font-extrabold tracking-[1px]'>
             Introducing GPT Nepal: Your Personal <br /> Guide To Visit Nepal
