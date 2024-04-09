@@ -1,3 +1,4 @@
+"use client"
 import About from './components/About';
 import Footer from './components/Footer';
 import Research from './components/Research';
@@ -22,7 +23,7 @@ export default function Home() {
         </div>
         <div className='flex h-screen w-full relative'
           style={{
-          backgroundImage: 'url("/bg.jpg")', // Replace with the path to your background image
+          backgroundImage: 'url("/images/bg.jpg")', // Replace with the path to your background image
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -65,7 +66,7 @@ export default function Home() {
       <div id="section5">
         <Footer />
       </div>
-
+     
     </>
   )
 }
