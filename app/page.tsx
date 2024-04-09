@@ -9,7 +9,7 @@ import LandingPageNav from './components/LandingPageNav';
 import Link from 'next/link';
 import { MdArrowOutward } from 'react-icons/md';
 
-const Bg = '/bg.jpg';
+
 
 export default function Home() {
 
@@ -48,6 +48,7 @@ export default function Home() {
        
 
       </main>
+      
 
       <div id="section1">
         <About />

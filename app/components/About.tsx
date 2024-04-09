@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Image from 'next/image';
 import Lumbini from "../../public/lumbini.jpg"
@@ -13,22 +12,12 @@ import Typewriter from './Typewritting';
 
 
 const About = () => {
-    const [showText, setShowText] = useState(false);
-    const [showTextktm, setShowTextktm] = useState(false);
-    const [showTextann, setShowTextann] = useState(false);
-    const [showTextchi, setShowTextchi] = useState(false);
-    const ref = useRef(null);
-    const [selectedId, setSelectedId] = useState(null)
+   
+   
     
     return (
         <div className='flex flex-col justify-center  items-center'>
-            {/* <motion.div
-        ref={ref}
-        className="bg-pink-800 h-[20px] w-[20px] rounded-full absolute"
-        animate={{ x, y }}
-        /> */}
-            {/* About GPT Nepal */}
-
+          
             <div className='h-[74vh]  w-[80vw] gap-8  p-4  m-4 flex  justify-center'>
             <motion.div
           initial={{ opacity: 0, x: -200 }}
