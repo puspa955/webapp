@@ -2,12 +2,12 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Image from 'next/image';
-import Lumbini from "../../public/lumbini.jpg"
-import Patan from "../../public/patan.jpg"
-import map from "../../public/nepal-55265453.png"
-import Chitwan from "../../public/chitwan.jpg"
-import annapurna from "../../public/annapurna.jpeg"
-import Everest from "../../public/Everest.jpg"
+import Lumbini from "../../public/images/lumbini.jpg"
+import Patan from "../../public/images/patan.jpg"
+import map from "../../public/images/nepal-55265453.png"
+import Chitwan from "../../public/images/chitwan.jpg"
+import annapurna from "../../public/images/annapurna.jpeg"
+import Everest from "../../public/images/Everest.jpg"
 import Typewriter from './Typewritting';
 
 

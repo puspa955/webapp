@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
 import Image from 'next/image';
-import suraj from "../../public/suraj.jpg"
-import neha from "../../public/Neha.jpg"
-import rikesh from "../../public/Rikesh.jpg"
-import puspa from "../../public/puspa.jpg"
+import suraj from "../../public/images/suraj.jpg"
+import neha from "../../public/images/Neha.jpg"
+import rikesh from "../../public/images/Rikesh.jpg"
+import puspa from "../../public/images/puspa.jpg"
 import { motion } from 'framer-motion';
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 

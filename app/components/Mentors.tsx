@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
 import Image from 'next/image';
-import sir1 from "../../public/MKGsir.jpg"
-import sir2 from "../../public/PSsir.jpg"
-import sir3 from "../../public/pukarsir.jpg"
+import sir1 from "../../public/images/MKGsir.jpg"
+import sir2 from "../../public/images/PSsir.jpg"
+import sir3 from "../../public/images/pukarsir.jpg"
 import { motion } from "framer-motion";
 
 const Mentors = () => {

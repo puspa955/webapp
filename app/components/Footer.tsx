@@ -1,11 +1,11 @@
 "use client"
 import React from 'react';
 import Image from 'next/image';
-import mountaion from "../../public/mountain-yellow.png"
+import mountaion from "../../public/images/mountain-yellow.png"
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Link from 'next/link';
-import logo from "../../public/logo.png";
+import logo from "../../public/images/logo.png";
 
 const Footer: React.FC = () => {
 
