@@ -18,7 +18,7 @@ const About = () => {
     return (
         <div className='flex flex-col justify-center  items-center'>
           
-            <div className='h-[100vh] w-full gap-8  p-4  m-4 flex  justify-center'>
+            <div className='w-full gap-8  p-4  m-4 flex  justify-center'>
             <motion.div
           initial={{ opacity: 0, x: -200 }}
           transition={{ duration: 1 }}

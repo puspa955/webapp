@@ -22,17 +22,17 @@ export default function Home() {
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
         </div>
 
-        <div className='absolute left-0 right-0 h-screen w-full'>
-           <img src={Background.src} alt='bg' className='h-screen w-full object-cover' />
+        <div className='absolute left-0 right-0 h-[60vh] w-full'>
+           <img src={Background.src} alt='bg' className='h-[60vh] w-full object-cover' />
            </div>
         {/* Background Overlay with Image */}
         <div className='absolute top-0 left-0 w-full h-screen bg-black opacity-50'></div>
         
-        <div className='text-white absolute top-[60vh] left-[10vw] z-10'>
+        <div className='text-white absolute top-[30vh] left-[10vw] z-10'>
           <h1 className='text-4xl font-extrabold tracking-[1px]'>Introducing GPT Nepal: Your Personal <br /> Guide To Visit Nepal</h1>
         </div>
 
-        <div className='absolute bottom-[12vh] left-[10vw] z-10'>
+        <div className='absolute bottom-[50vh] left-[10vw] z-10'>
         <button className='flex border cursor-pointer border-white text-white rounded-md px-8 py-2 font-bold hover:text-black hover:bg-white'>
           <Link href="/auth">
                     <span className="flex items-center">
