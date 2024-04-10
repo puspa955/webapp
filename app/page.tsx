@@ -17,17 +17,17 @@ export default function Home() {
   return (
     <>
       
-        
+        <div className='relative h-screen w-full'>
         <div className='absolute right-0 z-10'>
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
         </div>
 
-        <div className='flex h-screen w-full relative z-auto'>
-          <img src={Background.src} alt='bg' className='object-cover w-full' />
+        <div className='flex '>
+        
+          <img src={Background.src} alt='bg' className='absolute object-cover h-screen w-full -z-10' />
           </div>
         {/* Background Overlay with img */}
-        <div className='absolute top-0 left-0 w-full h-full bg-black opacity-50'
-        ></div>
+        
         
         <div className='text-white absolute top-[60vh] left-[10vw]'>
           <h1 className='text-4xl font-extrabold tracking-[1px]'>Introducing GPT Nepal: Your Personal <br /> Guide To Visit Nepal</h1>
@@ -41,6 +41,7 @@ export default function Home() {
                     </span>
                    </Link>
           </button>
+        </div>
         </div>
        
 
