@@ -12,8 +12,8 @@ html,body{
   overflow-x: hidden;
 }
 body {
-  overflow: hidden;
-  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  /* overflow: hidden; */
+  /* -ms-overflow-style: none; Hide scrollbar for IE and Edge */
   scrollbar-width: none; /* Hide scrollbar for Firefox */
 }
 

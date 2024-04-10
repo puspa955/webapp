@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="relative">
+      
         
         <div className='absolute right-0 z-10'>
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
        
 
-      </main>
+      
       
 
       <div id="section1">
