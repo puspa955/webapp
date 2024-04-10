@@ -21,7 +21,7 @@ export default function Home() {
           />
         </div>
         <div
-          className='flex h-screen w-full relative z-[0]'
+          className='flex h-screen w-full'
           style={{
             backgroundImage: 'url("/images/bg.jpg")', // Replace with the path to your background image
             backgroundSize: 'cover',
@@ -29,6 +29,7 @@ export default function Home() {
           }}>
 
         </div>
+
        
        
         <div className='text-white absolute top-[60vh] left-[10vw]'>
