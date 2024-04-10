@@ -4,6 +4,8 @@ import Research from './components/Research';
 import Mentors from './components/Mentors';
 import Team from './components/Team';
 import LandingPageNav from './components/LandingPageNav';
+import Image from 'next/image';
+import Background from '../public/images/bg.jpg'
 
 
 import Link from 'next/link';
@@ -21,13 +23,9 @@ export default function Home() {
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
         </div>
 
-        <div className='h-screen w-full'
-          style={{
-          backgroundImage: 'url("/images/bg.jpg")', // Replace with the path to your background image
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+        <div className='h-screen w-full'>
+           <Image src={Background} alt='bg' className='h-[500px] w-full object-cover' />
+           </div>
         {/* Background Overlay with Image */}
         <div className='absolute top-0 left-0 w-full h-screen bg-black opacity-50'></div>
         
