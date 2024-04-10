@@ -35,7 +35,7 @@ const Team: React.FC = () => {
           transition={{ duration: 0.3 }}
           className="bg-white border rounded-xl shadow-xl text-gray-700"
           style={{ width: '380px', height: '520px' }}>
-          <img className="w-full h-[348px] object-cover" src={neha.src} alt="Card Image" />
+          <Image className="w-full h-[348px] object-cover" src={neha} alt="Card Image" />
           <div className="p-4">
             <h2 className="text-xl font-bold">Neha Shah</h2>
             <p className="text-gray-700 text-xs">Purwanchal Campus, Institute of Engineering, Dharan</p>
@@ -56,7 +56,7 @@ const Team: React.FC = () => {
           transition={{ duration: 0.3 }}
           className="bg-white border rounded-xl shadow-xl text-gray-700"
           style={{ width: '380px', height: '520px' }}>
-          <img className="w-full h-[348px] object-cover" src={puspa.src} alt="Card Image" />
+          <Image className="w-full h-[348px] object-cover" src={puspa} alt="Card Image" />
           <div className="p-4">
             <h2 className="text-xl font-bold mb-1">Puspa Limbu</h2>
             <p className="text-gray-700 text-xs">Purwanchal Campus, Institute of Engineering, Dharan</p>
@@ -77,7 +77,7 @@ const Team: React.FC = () => {
           transition={{ duration: 0.3 }}
           className="bg-white border rounded-xl shadow-xl text-gray-700"
           style={{ width: '380px', height: '520px' }}>
-          <img className="w-full h-[348px] object-cover" src={rikesh.src} alt="Card Image" />
+          <Image className="w-full h-[348px] object-cover" src={rikesh} alt="Card Image" />
           <div className="p-4">
             <h2 className="text-xl font-bold mb-1">Rikesh Kumar Shah</h2>
             <p className="text-gray-700 text-xs">Purwanchal Campus, Institute of Engineering, Dharan</p>
@@ -98,7 +98,7 @@ const Team: React.FC = () => {
           transition={{ duration: 0.3 }}
           className="bg-white border rounded-xl shadow-xl text-gray-700" 
           style={{ width: '380px', height: '520px' }}>
-          <img className="w-full h-[348px] object-cover" src={suraj.src} alt="Card Image" />
+          <Image className="w-full h-[348px] object-cover" src={suraj} alt="Card Image" />
           <div className="p-4">
             <h2 className="text-xl font-bold mb-1">Suraj Sharma</h2>
             <p className="text-gray-700 text-xs">Purwanchal Campus, Institute of Engineering, Dharan</p>

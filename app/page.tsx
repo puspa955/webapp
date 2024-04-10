@@ -5,6 +5,7 @@ import Mentors from './components/Mentors';
 import Team from './components/Team';
 import LandingPageNav from './components/LandingPageNav';
 import Background from '../public/images/bg.jpg';
+import Image from 'next/image';
 
 import Link from 'next/link';
 import { MdArrowOutward } from 'react-icons/md';
@@ -13,12 +14,12 @@ export default function Home() {
   return (
     <>
       {/* Background */}
-      <div className='h-[80vh] w-full'>
+      <div className='h-screen w-full'>
 
       
        {/* Background Image */}
-          <div className="absolute h-[80vh] w-full z-10">
-            <img src={Background.src} alt='bg' className='absolute object-cover h-full w-full' />
+          <div className="absolute h-screen w-full z-10">
+            <Image src={Background} alt='bg' className='absolute object-cover h-full w-full' />
           <div className="absolute h-full w-full bg-black opacity-50"></div>
             </div>
 
