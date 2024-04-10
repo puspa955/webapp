@@ -1,3 +1,4 @@
+"use client"
 import About from './components/About';
 import Footer from './components/Footer';
 import Research from './components/Research';
@@ -9,8 +10,18 @@ import Image from 'next/image';
 
 import Link from 'next/link';
 import { MdArrowOutward } from 'react-icons/md';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [containerHeight, setContainerHeight] = useState(0);
+
+  useEffect(() => {
+    // Calculate and set the container height
+    const screenHeight = window.innerHeight;
+    setContainerHeight(screenHeight);
+  }, []);
+
+
   return (
     <>
       {/* Background */}
