@@ -22,11 +22,11 @@ export default function Home() {
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
         </div>
 
-        <div className='absolute z-10 h-screen'>
+        <div className='absolute left-0 right-0 h-screen w-full'>
            <img src={Background.src} alt='bg' className='h-screen w-full object-cover' />
            </div>
         {/* Background Overlay with Image */}
-        <div className='absolute top-0 left-0 w-full h-screen'></div>
+        <div className='absolute top-0 left-0 w-full h-screen bg-black opacity-50'></div>
         
         <div className='text-white absolute top-[60vh] left-[10vw] z-10'>
           <h1 className='text-4xl font-extrabold tracking-[1px]'>Introducing GPT Nepal: Your Personal <br /> Guide To Visit Nepal</h1>

@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { motion } from "framer-motion";
-import Image from 'next/image';
+
 import Lumbini from "../../public/images/lumbini.jpg"
 import Patan from "../../public/images/patan.jpg"
 import map from "../../public/images/nepal-55265453.png"
@@ -18,7 +18,7 @@ const About = () => {
     return (
         <div className='flex flex-col justify-center  items-center'>
           
-            <div className='h-[74vh]  w-[80vw] gap-8  p-4  m-4 flex  justify-center'>
+            <div className='h-[100vh] w-full gap-8  p-4  m-4 flex  justify-center'>
             <motion.div
           initial={{ opacity: 0, x: -200 }}
           transition={{ duration: 1 }}
@@ -47,17 +47,17 @@ const About = () => {
              whileInView={{ opacity: 1, x: 0 }}
              viewport={{ once: true }} 
                 className='bg-gray-100 rounded-md shadow-md w-[28vw] h-[48vh] p-4 relative mt-12'>
-                    <Image src={Lumbini} alt='lumbini' className='h-[380px] w-[500px] object-cover' />
+                    <img src={Lumbini.src} alt='lumbini' className='h-[380px] w-[500px] object-cover' />
                 </motion.div>
 
             </div>
 
             {/* About Nepal */}
-            <div className="bg-cover bg-center h-[140vh] w-[100vw] relative"
-                style={{ backgroundImage: "url('https://ntb.gov.np/storage/website/landscape2-44237cb6.jpeg')" }}>
+            <div className="bg-cover bg-center h-[140vh] w-[100vw] relative">
+                <img src="https://ntb.gov.np/storage/website/landscape2-44237cb6.jpeg" alt="Description of the image" />
                 <div className="absolute w-full h-full bg-white opacity-70"></div>
                 <div className='absolute right-4 top-[40vh] m-4'>
-                    <Image src={map} alt='lumbini' className=' h-[400px] w-[45vw]  object-fill  ' />
+                    <img src={map.src} alt='lumbini' className=' h-[400px] w-[45vw]  object-fill  ' />
                 </div>
 
                 <div className='absolute w-[32vw] mt-10 lg:ml-16 z-10'>
@@ -69,7 +69,7 @@ const About = () => {
                         <div className='group h-96 w-96 [perspective:1000px]'>
                             <div className='bg-gray-200 relative h-[54vh] w-[15vw] rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
                                 <div className='absolute inset-0'>
-                                    <Image src={Everest} alt='Everest' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
+                                    <img src={Everest.src} alt='Everest' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
                                 </div>
                                 <div className='absolute inset-0 h-full w-full rounded-xl bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                                 <div className='absolute top-0 left-0  bg-black h-full opacity-70 rounded-xl text-center pt-28 px-6 z-10'>
@@ -86,7 +86,7 @@ const About = () => {
                         <div className='group h-96 w-96 gap-2 [perspective:1000px]'>
                             <div className='bg-gray-200 relative h-[54vh] w-[30vw] rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
                                 <div className='absolute inset-0'>
-                                    <Image src={Patan} alt='Patan' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
+                                    <img src={Patan.src} alt='Patan' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
                                 </div>
                                 <div className='absolute inset-0 h-full w-full rounded-xl bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                                 <div className='absolute top-0 left-0  bg-black h-full opacity-70 rounded-xl text-center pt-28 px-6 z-10'>
@@ -103,7 +103,7 @@ const About = () => {
                         <div className='group h-96 w-96 [perspective:1000px]'>
                             <div className='bg-gray-200 relative h-[48vh] w-[30vw] rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
                                 <div className='absolute inset-0'>
-                                    <Image src={Chitwan} alt='Chitwan' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
+                                    <img src={Chitwan.src} alt='Chitwan' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
                                 </div>
                                 <div className='absolute inset-0 h-full w-full rounded-xl bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                                 <div className='absolute top-0 left-0  bg-black h-full opacity-70 rounded-xl text-center pt-28 px-6 font-extrabold z-10'>
@@ -119,7 +119,7 @@ const About = () => {
                         <div className='group h-96 w-60 pl-56 [perspective:1000px]'>
                             <div className='bg-gray-200 relative h-[48vh] w-[15vw] rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
                                 <div className='absolute inset-0'>
-                                    <Image src={annapurna} alt='Annapurna' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
+                                    <img src={annapurna.src} alt='Annapurna' className='h-full w-full rounded-xl object-cover shadow-black/40 py-3 px-3'/>
                                 </div>
                                 <div className='absolute inset-0 h-full w-full rounded-xl bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                                 <div className='absolute top-0 left-0  bg-black h-full opacity-70 rounded-xl text-center pt-16 px-6 font- z-10'>
@@ -142,3 +142,4 @@ const About = () => {
 }
 
 export default About
+
