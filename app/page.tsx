@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       {/* Background */}
-      <div className='relative h-screen w-full'>
+      <div className='h-screen w-full'>
 
       
        {/* Background Image */}
