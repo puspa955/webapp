@@ -12,9 +12,10 @@ interface NavbarProps {
   section3Id: string;
   section4Id: string;
   section5Id: string;
+  section6Id: string;
 }
 
-const LandingPageNav: React.FC<NavbarProps> = ({ section1Id, section2Id, section3Id , section4Id, section5Id}) => {
+const LandingPageNav: React.FC<NavbarProps> = ({ section1Id, section2Id, section3Id , section4Id, section5Id, section6Id}) => {
   const [navbar, setNavbar] = useState(false);
   const [scrolling, setScrolling] = useState(false);
 
@@ -112,6 +113,11 @@ const LandingPageNav: React.FC<NavbarProps> = ({ section1Id, section2Id, section
                 <li className="pr-3 pl-4 md:pl-0" >
                   <Link href={`#${section5Id}`} prefetch={false} className={styles.link}>
                     Contact Us
+                  </Link>
+                </li>
+                <li className="pr-3 pl-4 md:pl-0" >
+                  <Link href={`#${section6Id}`} prefetch={false} className={styles.link}>
+                    Destination
                   </Link>
                 </li>
                 <button className="flex tracking-[1px] items-center border bg-blue-950 cursor-pointer border-transparent text-white rounded-sm px-8 py-2 font-bold hover:bg-white hover:text-black">
