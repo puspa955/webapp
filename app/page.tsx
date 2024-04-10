@@ -29,8 +29,7 @@ export default function Home() {
           }}>
 
         </div>
-        <div className='absolute inset-0 bg-black opacity-50 z-[0] '></div>
-        
+       
        
         <div className='text-white absolute top-[60vh] left-[10vw]'>
           <h1 className='text-4xl font-extrabold tracking-[1px]'>
