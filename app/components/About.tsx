@@ -13,7 +13,7 @@ import Typewriter from './Typewritting';
 const About = () => {
     return (
         <div className='flex flex-col justify-center items-center'>
-            <div className='h-[74vh] w-[80vw] gap-8 p-4 m-4 flex justify-center'>
+            <div className='h-[74vh] w-[80vw] gap-8 p-4 m-4 flex justify-center bg-black'>
                 <motion.div
                     initial={{ opacity: 0, x: -200 }}
                     transition={{ duration: 1 }}

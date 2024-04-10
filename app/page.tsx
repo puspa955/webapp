@@ -1,4 +1,3 @@
-"use client"
 import About from './components/About';
 import Footer from './components/Footer';
 import Research from './components/Research';
@@ -10,26 +9,17 @@ import Image from 'next/image';
 
 import Link from 'next/link';
 import { MdArrowOutward } from 'react-icons/md';
-import { useEffect, useState } from 'react';
+
 
 export default function Home() {
-  const [containerHeight, setContainerHeight] = useState(0);
-
-  useEffect(() => {
-    // Calculate and set the container height
-    const screenHeight = window.innerHeight;
-    setContainerHeight(screenHeight);
-  }, []);
-
-
   return (
     <>
       {/* Background */}
-      <div className='h-screen w-full'>
+      <div className='h-[50vh] w-full'>
 
       
        {/* Background Image */}
-          <div className="absolute h-screen w-full z-10">
+          <div className="absolute h-[50vh] w-full z-10">
             <Image src={Background} alt='bg' className='absolute object-cover h-full w-full' />
           <div className="absolute h-full w-full bg-black opacity-50"></div>
             </div>
@@ -42,10 +32,10 @@ export default function Home() {
         
 
         {/* Content */}
-        <div className='absolute top-[60vh] left-[10vw] z-30'>
+        <div className='absolute top-[30vh] left-[10vw] z-30'>
           <h1 className='text-4xl font-extrabold tracking-[1px] text-white'>Introducing GPT Nepal: Your Personal <br /> Guide To Visit Nepal</h1>
         </div>
-        <div className='absolute bottom-[12vh] left-[10vw] z-30'>
+        <div className='absolute bottom-[50vh] left-[10vw] z-30'>
           <button className='flex border cursor-pointer border-white text-white rounded-md px-8 py-2 font-bold hover:text-black hover:bg-white'>
             <Link href="/auth">
               <span className="flex items-center">
