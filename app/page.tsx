@@ -5,7 +5,8 @@ import Research from './components/Research';
 import Mentors from './components/Mentors';
 import Team from './components/Team';
 import LandingPageNav from './components/LandingPageNav';
-
+import Image from 'next/image';
+import Background from '../public/images/bg.jpg'
 
 import Link from 'next/link';
 import { MdArrowOutward } from 'react-icons/md';
@@ -21,17 +22,11 @@ export default function Home() {
         <div className='absolute right-0 z-10'>
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
         </div>
-        <div className='flex h-screen w-full'
-          style={{
-          backgroundImage: 'url("/images/bg.jpg")', // Replace with the path to your background image
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+        <div className='flex h-screen w-full'>
+          <Image src={Background} alt='background' className='object-cover items-center' />
+        </div>
        
-        <div
-          className='absolute top-0 left-0 w-full h-full bg-black opacity-80'
-        ></div>
+        <div className='absolute top-0 left-0 w-full h-full bg-black opacity-60'></div>
         
         <div className='text-white absolute top-[60vh] left-[10vw]'>
           <h1 className='text-4xl font-extrabold tracking-[1px]'>Introducing GPT Nepal: Your Personal <br /> Guide To Visit Nepal</h1>
