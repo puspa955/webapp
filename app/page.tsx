@@ -21,7 +21,7 @@ export default function Home() {
         <div className='absolute right-0 z-10'>
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
         </div>
-        <div className='flex h-screen w-full relative'>
+        <div className='flex h-screen w-full'>
           <img src={Background.src} alt='bg' className='object-cover w-full' />
           </div>
         {/* Background Overlay with img */}
