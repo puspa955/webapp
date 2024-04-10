@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className='absolute right-0 z-10'>
+        <div className='absolute right-0 z-50'>
           <LandingPageNav
             section1Id="section1"
             section2Id="section2"
@@ -21,14 +21,15 @@ export default function Home() {
           />
         </div>
         <div
-          className='flex h-screen w-full relative z-[-10]'
+          className='flex h-screen w-full relative z-[0]'
           style={{
             backgroundImage: 'url("/images/bg.jpg")', // Replace with the path to your background image
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-          }}
-        ></div>
-        {/* <div className='absolute inset-0 bg-black opacity-50'></div> */}
+          }}>
+
+        </div>
+        <div className='absolute inset-0 bg-black opacity-50 z-[0] '></div>
         
        
         <div className='text-white absolute top-[60vh] left-[10vw]'>
@@ -36,7 +37,7 @@ export default function Home() {
             Introducing GPT Nepal: Your Personal <br /> Guide To Visit Nepal
           </h1>
         </div>
-        <div className='absolute bottom-[12vh] left-[10vw] z-10'>
+        <div className='absolute bottom-[12vh] left-[10vw]'>
           <button className='flex border cursor-pointer border-white text-white rounded-md px-8 py-2 font-bold hover:text-black hover:bg-white'>
             <Link href="/auth">
               <span className="flex items-center">
