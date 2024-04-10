@@ -28,8 +28,8 @@ export default function Home() {
             backgroundPosition: 'center',
           }}
         ></div>
-        <div className='absolute inset-0 bg-black opacity-50'></div>
-        {/* Background Overlay with Image */}
+        {/* <div className='absolute inset-0 bg-black opacity-50'></div> */}
+        
        
         <div className='text-white absolute top-[60vh] left-[10vw]'>
           <h1 className='text-4xl font-extrabold tracking-[1px]'>
