@@ -10,7 +10,7 @@ import { MdArrowForward } from 'react-icons/md';
 export default function Home() {
   return (
     <>
-      <main>
+      <main className='static z-10'>
         <div className='absolute right-0 z-50'>
           <LandingPageNav
             section1Id="section1"
