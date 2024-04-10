@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative h-screen w-full">
+      <div className="h-screen w-full">
         
         <div className='absolute right-0 left-0 z-10'>
           <LandingPageNav section1Id="section1" section2Id="section2" section3Id="section3" section4Id="section4" section5Id="section5" />
@@ -62,7 +62,7 @@ export default function Home() {
       <div id="section4">
         <Team />
       </div>
-      
+
       <div id="section5">
         <Footer />
       </div>
