@@ -26,7 +26,7 @@ const LandingPageNav: React.FC<NavbarProps> = ({ section1Id, section2Id, section
             <div className="flex items-center justify-between py-2 md:py-1 md:block ">
              <div className=''>
              <Link href="/" prefetch={false}>
-                <Image height={150} width={150} src={logo} loading="eager" alt="logo"></Image>
+                <img height={150} width={150} src={logo.src} loading="eager" alt="logo"/>
               </Link>
              </div>
               <div className="md:hidden">

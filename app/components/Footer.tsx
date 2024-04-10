@@ -1,6 +1,6 @@
 "use client"
 import React, { useRef } from 'react';
-import Image from 'next/image';
+
 import mountaion from '../../public/images/mountain-yellow.png';
 import emailjs from '@emailjs/browser';
 import Link from 'next/link';
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
         <div className='w-[60vw] mt-4 gap-24 flex'>
           <div className='h-[300px] w-[200px] m-4 p-4'>
             <Link href='/' prefetch={false}>
-              <Image height={150} width={150} src={logo} loading='eager' alt='logo' />
+              <img height={150} width={150} src={logo.src} loading='eager' alt='logo' />
             </Link>
             <h2 className='font-bold tracking-[1px] text-[#da123c] mt-4'>Email</h2>
             <p className='text-sm text-gray-600 hover:text-gray-800 font-semibold pb-2'>gptnepal@gmail.com</p>
@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className='absolute bottom-0 left-24'>
-        <Image src={mountaion} alt='mountain' className='h-full' />
+        <img src={mountaion.src} alt='mountain' className='h-full' />
       </div>
     </div>
   );

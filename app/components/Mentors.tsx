@@ -18,7 +18,7 @@ const Mentors: React.FC = () => {
           transition={{ duration: 0.3 }}
           className="bg-white border rounded-xl overflow-hidden shadow-xl text-gray-700"
           style={{ width: '600px', height: '650px' }}>
-          <Image className="w-full h-[420px] object-cover" src={sir1} alt="Card Image" />
+          <img className="w-full h-[420px] object-cover" src={sir1.src} alt="Card Image" />
           <div className="p-4 text-left">
             <h2 className="text-xl font-extrabold mb-1">Supervisor</h2>
             <h2 className="text-xs font-bold ">Asst. Professor</h2>
@@ -33,7 +33,7 @@ const Mentors: React.FC = () => {
           transition={{ duration: 0.3 }}
           className="bg-white border rounded-xl overflow-hidden shadow-xl text-gray-700"
           style={{ width: '600px', height: '650px' }}>
-          <Image className="w-full h-[420px] object-cover" src={sir2} alt="Card Image" />
+          <img className="w-full h-[420px] object-cover" src={sir2.src} alt="Card Image" />
           <div className="p-4 text-left">
             <h2 className="text-xl font-bold mb-1">Mentor</h2>
             <h2 className="text-xs font-bold ">Asst. Professor</h2>
@@ -49,7 +49,7 @@ const Mentors: React.FC = () => {
           transition={{ duration: 0.3 }}
           className="bg-white border rounded-xl overflow-hidden shadow-xl text-gray-700"
           style={{ width: '600px', height: '650px' }}>
-          <Image className="w-full h-[420px] object-cover" src={sir3} alt="Card Image" />
+          <img className="w-full h-[420px] object-cover" src={sir3.src} alt="Card Image" />
           <div className="p-4 text-left">
             <h2 className="text-xl font-bold mb-1">Mentor</h2>
             <h2 className="text-xs font-bold ">Asst. Professor</h2>

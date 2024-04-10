@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import { motion } from "framer-motion";
-
 import Lumbini from "../../public/images/lumbini.jpg"
 import Patan from "../../public/images/patan.jpg"
 import map from "../../public/images/nepal-55265453.png"
@@ -18,7 +17,7 @@ const About = () => {
     return (
         <div className='flex flex-col justify-center  items-center'>
           
-            <div className='w-full gap-8  p-4  m-4 flex  justify-center'>
+            <div className='h-[74vh]  w-[80vw] gap-8  p-4  m-4 flex  justify-center'>
             <motion.div
           initial={{ opacity: 0, x: -200 }}
           transition={{ duration: 1 }}
@@ -53,8 +52,8 @@ const About = () => {
             </div>
 
             {/* About Nepal */}
-            <div className="bg-cover bg-center h-[140vh] w-[100vw] relative">
-                <img src="https://ntb.gov.np/storage/website/landscape2-44237cb6.jpeg" alt="Description of the image" />
+            <div className="bg-cover bg-center h-[140vh] w-[100vw] relative"
+                style={{ backgroundImage: "url('https://ntb.gov.np/storage/website/landscape2-44237cb6.jpeg')" }}>
                 <div className="absolute w-full h-full bg-white opacity-70"></div>
                 <div className='absolute right-4 top-[40vh] m-4'>
                     <img src={map.src} alt='lumbini' className=' h-[400px] w-[45vw]  object-fill  ' />
@@ -142,4 +141,3 @@ const About = () => {
 }
 
 export default About
-
